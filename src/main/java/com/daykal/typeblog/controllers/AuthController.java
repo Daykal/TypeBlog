@@ -2,7 +2,7 @@ package com.daykal.typeblog.controllers;
 
 import com.daykal.typeblog.domain.dtos.AuthResponse;
 import com.daykal.typeblog.domain.dtos.LoginRequest;
-import com.daykal.typeblog.security.AuthenticationService;
+import com.daykal.typeblog.services.AuthenticationService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.ResponseEntity;
 import org.springframework.security.core.userdetails.UserDetails;
